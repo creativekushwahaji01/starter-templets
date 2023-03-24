@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Developer</title>
+</head>
+<style>
+    body {
+        background-image: url("img1.jpg");
+        display: flex;
+        justify-content: center;
+        color: aqua;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+    }
+    
+    label {
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #3e8e41;
+    }
+</style>
+
+<body>
+
+    ,
+    <main>
+        <h1>Contact Developer</h1>
+
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="useremail" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </main>
+
+</body>
+
+</html>
